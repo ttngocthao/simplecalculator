@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='stylesheet' href='style.css'/>
+	<script src='script.js'></script>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+
+	<title>CALCULATOR</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Simple Calculator</h1>
+        </header>
+        <div id='wrapper'>
+            <form name='calculation'>
+                <label>First Number:</label>
+                <input type='text' name='first' value='First number'/><br/><br/>
+                <label>Second Number:</label>
+                <input type='text' name='second' value='Second number'/>
+                <br/><br/>
+            <div class='button'>    
+                <input type='button' value="Addition" onClick='add()'/>
+                <input type='button' value='Subtractinon' onClick='subtract()'/>
+                <input type='button' value='Multiplication' onClick='times()'/>
+                <input type='button' value='Division' onClick='divide()'/>
+            </div>    
+                <br/><br/>
+                <label> Result:</label>
+                <input type='text' name='result'/>
+            </form>
+            <div class='result'></div>
+        </div>
+    </main>
+</body>
+</html>
